@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complete responsive cosmetics website design tutorial</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#home" class="logo"> <img src="images/LOGO.png" alt=""> </a>
+
+    <form action="" class="search-form">
+        <input type="search" name="" placeholder="search here..." id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a> 
+        <a href="./login.html" id="signupicon">SignUp</a>
+        <a href="./login2.html" id="signupicon"> Login </a>
+    </div>
+
+</header>
+
+<!-- navbar section  -->
+
+<nav class="navbar">
+    <div id="close-navbar" class="fas fa-times"></div>
+    <a href="#home">home</a>
+    <a href="#shop">shop</a>
+    <a href="#gallery">gallery</a>
+    <a href="#team">team</a>
+    <a href="#arrivals">arrivals</a>
+    <a href="#blogs">blogs</a>
+</nav>
+
+<!-- navbar section  -->
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="slide active">
+        <div class="content">
+            <img src="images/img1.jpg" alt="">
+            <span>New arrivals 2024</span>
+            <h3>Cosmetics Product</h3>
+            <a href="#" class="btn">read more</a>
+            <div class="controls">
+                <div class="fas fa-angle-left" onclick="prev()"></div>
+                <div class="fas fa-angle-right" onclick="next()"></div>
+            </div>
+        </div>
+        <div class="image">
+            <img src="images/new.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="slide">
+        <div class="content">
+            <img src="images/content-img-1.png" alt="">
+            <span>New arrivals 2023</span>
+            <h3>Accessories</h3>
+            <a href="#" class="btn">read more</a>
+            <div class="controls">
+                <div class="fas fa-angle-left" onclick="prev()"></div>
+                <div class="fas fa-angle-right" onclick="next()"></div>
+            </div>
+        </div>
+        <div class="image">
+            <img src="images/new (1).jpg" alt="">
+        </div>
+    </div>
+
+    <div class="slide">
+        <div class="content">
+            <img src="images/content-img-3.png" alt="">
+            <span>New collections</span>
+            <h3>skin care</h3>
+            <a href="#" class="btn">read more</a>
+            <div class="controls">
+                <div class="fas fa-angle-left" onclick="prev()"></div>
+                <div class="fas fa-angle-right" onclick="next()"></div>
+            </div>
+        </div>
+        <div class="image">
+            <img src="images/new (2).jpg" alt="">
+        </div>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- category section starts  -->
+
+<section class="category">
+
+    <a href="#" class="box">
+        <img src="images/category-1.png" alt="">
+        <p>Cosmetics</p>
+    </a>
+
+    <a href="#" class="box">
+        <img src="images/category-2.png" alt="">
+        <p>Makeup</p>
+    </a>
+
+    <a href="#" class="box">
+        <img src="images/category-3.png" alt="">
+        <p>Powder</p>
+    </a>
+
+    <a href="#" class="box">
+        <img src="images/category-4.png" alt="">
+        <p>Lotions</p>
+    </a>
+
+    <a href="#" class="box">
+        <img src="images/category-5.png" alt="">
+        <p>Lipstick</p>
+    </a>
+
+    <a href="#" class="box">
+        <img src="images/category-6.png" alt="">
+        <p>Mascara</p>
+    </a>
+
+</section>
+
+<!-- category section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <div class="content">
+        <span>why choose us?</span>
+        <h3>"Elevate Your Beauty with Unparalleled Excellence"</h3>
+        <p>At our cosmetic products website, we prioritize your beauty journey by offering a curated selection of premium, high-quality products. Our commitment to excellence ensures that each item is crafted with precision, using the finest ingredients to enhance your natural allure. Discover a world where sophistication meets innovation, and choose us to indulge in a transformative experience that celebrates your unique beauty.</p>
+        <a href="#" class="btn">read more</a>
+    </div>
+    
+</section>
+
+<!-- about section ends -->
+
+<!-- shop section starts  -->
+
+<section class="shop" id="shop">
+
+    <div class="heading">
+        <h1>Featured products</h1>
+        <p>Discover Radiant Glamour with Our Featured Products - Elevate your cosmetic routine with these must-have essentials for a captivating and timeless beauty.</p> </div>
+
+    <div class="swiper products-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <span class="discount">-25%</span>
+                    <img src="images/product-1.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h1>Fourth Ray Moisturizer</h1>
+                    <p>Beauty products</p>
+                    <div class="price">₹3,000 <span>₹4,800</span></div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <span class="discount">-25%</span>
+                    <img src="images/product-2.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h1>A Matte Liquid Lipstick</h1>
+                    <p>Beauty Products</p>
+                    <div class="price">₹1,550 <span>₹2,450</span></div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <span class="discount">-25%</span>
+                    <img src="images/product-3.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h1>Acne Mask</h1>
+                    <p>Beauty Products</p>
+                    <div class="price">₹1,599 <span>₹2,100</span></div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <span class="discount">-25%</span>
+                    <img src="images/product-4.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h1>Dentimmune GEL</h1>
+                    <p>Beauty Products</p>
+                    <div class="price">₹499 <span>₹999</span></div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <span class="discount">-25%</span>
+                    <img src="images/product-5.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>Lip Gloss Lipstick</p>
+                    <div class="price">₹1,499 <span>₹2,100</span></div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <span class="discount">-45%</span>
+                    <img src="images/product-6.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>Intense Color Liquid Eyeliner</p>
+                    <div class="price">₹1,400 <span>₹2,200</span></div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <span class="discount">-45%</span>
+                    <img src="images/product-7.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>Flawless Finish Concealer</p>
+                    <div class="price">₹1,800 <span>₹3,100</span></div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <span class="discount">-65%</span>
+                    <img src="images/product-8.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>Hydrating Mist Setting Spray</p>
+                    <div class="price">₹1,300 <span>₹2,500</span></div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+
+</section>
+
+<!-- shop section ends -->
+
+<!-- arrivals section starts  -->
+
+<section class="arrivals" id="arrivals">
+
+    <div class="heading">
+        <h1>New arrivals</h1>
+        <p>Ignite your beauty revolution with our mesmerizing New Arrivals! From vibrant hues to revolutionary formulations, discover the essence of glamour and redefine your cosmetic journey.</p>
+    </div>
+
+    <div class="swiper arrivals-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="images/arrival-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <p>Beauty products</p>
+                    <div class="price">₹1,800<span>₹2,900</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="images/arrival-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <p>Beauty Products</p>
+                    <div class="price">₹2,500<span>₹3,600</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="images/arrival-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <p>Beauty products</p>
+                    <div class="price">₹2,600<span>₹3,100</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="images/arrival-4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <p>Beauty products</p>
+                    <div class="price">₹2,699<span>₹4,699</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="images/arrival-5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <p>Beauty products</p>
+                    <div class="price">₹2,500 <span>₹3,500</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="images/arrival-6.jpg" alt="">
+                </div>
+                <div class="content">
+                    <p>Beauty products</p>
+                    <div class="price">₹1,500 <span>₹2,000</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="images/arrival-7.jpg" alt="">
+                </div>
+                <div class="content">
+                    <p>Beauty products</p>
+                    <div class="price">₹3,599 <span>₹2,599</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="images/arrival-8.jpg" alt="">
+                </div>
+                <div class="content">
+                    <p>Beauty products</p>
+                    <div class="price">₹2,999 <span>₹3,499</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+    
+</section>
+
+<!-- arrivals section ends -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+    <div class="heading">
+        <h1>Our Gallery</h1>
+        <p>Explore our gallery adorned with beauty and elegance, where every detail speaks of luxury and grace. Immerse yourself in a world of captivating aesthetics and discover the allure of extraordinary moments</p>
+    </div>
+
+    <div class="lightbox">
+        <a href="images/img-6.jpg"><img src="images/img-6.jpg" alt=""></a>
+        <a href="images/img-5.jpg"><img src="images/img-5.jpg" alt=""></a>
+        <a href="images/img-3.jpg"><img src="images/img-3.jpg" alt=""></a>
+        <a href="images/R3.jpeg"><img src="images/R3.jpeg" alt=""></a>
+        <a href="images/r2.jpg"><img src="images/r2.jpg" alt=""></a>
+        <a href="images/R.png"><img src="images/R.png" alt=""></a>
+    </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+<!-- reviews section ends  -->
+
+<!-- service section starts  -->
+
+<section class="service">
+
+    <div class="box">
+        <img src="images/service-1.png" alt="">
+        <h3>Free shipping</h3>
+        <p>Indulge in Effortless Glamour! Enjoy complimentary shipping on all orders, because your beauty deserves to arrive with the elegance it deserves. Elevate your cosmetic experience, with free shipping that adds a touch of luxury to every delivery.</p>
+    </div>
+
+    <div class="box">
+        <img src="images/service-2.png" alt="">
+        <h3>Secure payment</h3>
+        <p>Shop with Confidence! Your beauty journey is safeguarded with our secure payment options, ensuring a seamless and worry-free transaction. Because when it comes to elegance, your peace of mind is priceless.</p>
+    </div>
+
+    <div class="box">
+        <img src="images/service-3.png" alt="">
+        <h3>2/4 Support</h3>
+        <p>Unparalleled Assistance, Anytime, Anywhere! Our dedicated support team is here 24/7 to address your beauty needs. Experience the comfort of round-the-clock assistance on your cosmetic journey because your satisfaction is our priority.</p>
+    </div>
+
+</section>
+
+<!-- service section ends -->
+
+<!-- blogs section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#" class="link"> <i class="fas fa-angle-right"></i> my order </a>
+            <a href="#" class="link"> <i class="fas fa-angle-right"></i> my favorite </a>
+            <a href="#" class="link"> <i class="fas fa-angle-right"></i> my wishlist </a>
+            <a href="#" class="link"> <i class="fas fa-angle-right"></i> private policy </a>
+            <a href="#" class="link"> <i class="fas fa-angle-right"></i> terms of use </a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <p> <i class="fas fa-phone"></i> +123-456-7890 </p>
+            <p> <i class="fas fa-phone"></i> +9463354450 </p>
+            <p> <i class="fas fa-envelope"></i> aparnakharkwal@gmail.com </p>
+            <p> <i class="fas fa-map"></i> Chandigarh, india - 160020 </p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+            
+        </div>
+        <div class="box">
+            <div class="image">    
+                <img src="images/team.jpg" width="100%" alt="">
+            </div>
+            <div class="content">
+                <h3>PRASHANT & APARNA</h3>
+                <p>make-up artist</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- team section starts  -->
+
+ <section class="team" id="team">
+<!--
+    <div class="heading">
+        <h1> </h1>
+        </div>
+
+    <div class="box-container">
+        <div class="box">
+            
+            
+        </div>
+    </div>
+-->
+    
+    <div class="credit"> created by <span>APARNA KHARKWAL AND PRASHANT</span> | THANKS FOR VISTING </div>
+    
+</section> 
+<!-- team section ends -->
+
+<!-- footer section ends -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link      -->
+<script src="js/script.js"></script>
+
+<script>
+    lightGallery(document.querySelector('.gallery .lightbox'));
+</script>
+    
+</body>
+</html>
